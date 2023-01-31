@@ -1,12 +1,13 @@
 h1 {
-    color: rgb(26 , 110, 255);
+    color: rgb(0 , 127, 255);
     text-align: left;
     margin-left: 300px;
     margin-right: 700pxpx;
-    margin-top:300px;
+    margin-top: 215px;
     margin-bottom: auto;
     font-size: 60px;
-    font-style: normal;
+    font-style: Klavika;
+    font-weight: 900;
 }
 p, p {
     color: rgb(0 , 0, 0);
@@ -17,4 +18,88 @@ p, p {
     margin-bottom: auto;
     font-size: 25px;
     font-style: normal;
+}
+.box {
+    height: 330px;
+    width: 380px;
+    background-color: white;
+    margin-top: -179px;
+    margin-bottom: auto;
+    margin-right: auto;
+    margin-left: 800px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 4px 0 #888888;
+}
+body {
+    background-color: rgb(236, 236, 236);
+}
+input[type="email"] {
+    height: 35px;
+    width: 340px;
+    margin-top: 16px;
+    margin-bottom: auto;
+    margin-left: 16px;
+    margin-right: auto;
+    border-radius: 5px;
+    border: 1px solid rgb(144, 144, 144);
+}
+input[type="password"] {
+    height: 35px;
+    width: 340px;
+    margin-top: 18px;
+    margin-bottom: auto;
+    margin-right: auto;
+    margin-left: 16px;
+    border-radius: 5px;
+    border: 1px solid rgb(144, 144, 144);
+}
+input[type="submit"] {
+    height: 39px;
+    width: 345px;
+    margin-top: 20px;
+    margin-bottom: auto;
+    margin-right: auto;
+    margin-left: 16px;
+    border-radius: 5px;
+    background-color: rgb(26 , 110, 255 );
+    color: white;
+    border: 1px solid rgb(144, 144, 144);
+}
+.passwor-forgot {
+    height: auto;
+    width: auto;
+    margin-top: auto;
+    margin-bottom: 6px;
+    margin-right: auto;
+    margin-left: 120px;
+    color: rgb(0 , 127, 255);
+}
+.divider {
+    border-bottom: 1px solid #d6dcdc;
+    margin-top: 23px;
+    margin-bottom: auto;
+    margin-right: 17px;
+    margin-left: 16px;
+}
+input[type="NP"] {
+    height: 40px;
+    width: 150px;
+    margin-top: 30px;
+    margin-bottom: auto;
+    margin-left: 110px;
+    margin-right: auto;
+    background-color: rgb(72, 231, 12);
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    border: 1px solid rgb(72, 231, 12);
+}
+.page-create {
+    height: auto;
+    width: auto;
+    margin-top: 75px;
+    margin-bottom: auto;
+    margin-right: auto;
+    margin-left: 35px;
+    font-size: 17px;
 }
